@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background: rgba(134, 4, 4, 0.473);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.post{
+    height: 400px;
+    width: 224px;
+    background-image: url('img/photo_2023-01-28_20-00-04.jpg');
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.reactions{
+    width: 224px;
+    height: 45px;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.likes{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.dislikes{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.imgl{
+    width: 40px;
+    height: 40px;
+    background-image: url('img/like-64x64.png');
+    background-size: cover;
+}
+
+.lspan{
+    font-size: 30px;
+}
+
+.imgd{
+    width: 40px;
+    height: 40px;
+    background-image: url('img/like-64x64.png');
+    background-size: cover;
+    transform: rotate(180deg);
+}
+
+.dspan{
+    font-size: 30px;
+}
+
+.comments{
+    width: 500px;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.comment{
+    width: 475px;
+    font-size: 27px;
+    border: 2px solid black;
+    margin: 7px;
+    border-radius: 20px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.save{
+    width: 224px;
+    height: 45px;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
